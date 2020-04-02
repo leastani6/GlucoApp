@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/pink"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+
+
+    <Button
+        android:id="@+id/llograrit"
+        style="@android:style/Widget.Button"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="189dp"
+        android:layout_marginRight="189dp"
+        android:layout_marginBottom="104dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="Llogarit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#673AB7" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="197dp"
+        android:layout_marginRight="197dp"
+        android:layout_marginBottom="422dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Pesha ne kg" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="198dp"
+        android:layout_marginRight="198dp"
+        android:layout_marginBottom="352dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" Gjatesia ne metra" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="270dp"
+        android:text="Llogarit BMI"
+        android:textColor="#662AE4"
+        android:textSize="24sp"
+
+        android:textStyle="bold"
+        app:fontFamily="@font/love_ya_like_a_sister" />
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginRight="221dp"
+        android:layout_marginBottom="184dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/love_ya_like_a_sister"
+        android:textColor="#662AE4"
+        android:textSize="18dp"
+       />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="302dp"
+        android:layout_marginRight="302dp"
+        android:layout_marginBottom="182dp"
+        android:text="Rezultati"
+        android:textColor="#662AE4"
+        android:textSize="18dp"
+
+        android:textStyle="bold"
+        app:fontFamily="@font/love_ya_like_a_sister" />
+
+    <TextView
+        android:id="@+id/Res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginBottom="186dp"
+
+        android:textColor="#1FD6A8"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:fontFamily="@font/love_ya_like_a_sister" />
+</RelativeLayout>
